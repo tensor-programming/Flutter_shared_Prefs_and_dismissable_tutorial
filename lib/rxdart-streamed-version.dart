@@ -80,6 +80,7 @@ class HomeState extends State<Home> {
   //   listTwo = prefs.getStringList('list');
   //   setState(() {});
   // }
+  // old implementation, caused a loop from the build function.
 
   Future<Null> updateStrings(String str) async {
     final SharedPreferences prefs = await _sPrefs;
@@ -92,7 +93,7 @@ class HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    // getStrings();
+    // getStrings();  //loop from build function. 
     return Center(
       child: ListView(
         children: <Widget>[
