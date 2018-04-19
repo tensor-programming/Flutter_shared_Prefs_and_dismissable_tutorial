@@ -9,4 +9,4 @@
 
 ### Our [Twitter](https://twitter.com/TensorProgram), our [facebook](https://www.facebook.com/Tensor-Programming-1197847143611799/) and our [Steemit](https://steemit.com/@tensor).
 
-*note:* One of my subs pointed out that the original implementation of this application had a infinite loop in it.  While this loop is not problematic; it still isn't a great practice.  On this sub's advice, I also added a version of this code which uses streams to fetch the data from the shared prefs key/value store.  There is both a basic dart example and an RxDart example; just make sure to import RxDart if you want to look at that one.    
+*note:* One of my subs pointed out that the original implementation of this application had a infinite loop in it.  While this loop is not problematic; it still isn't a great practice.  On this sub's advice, I also added a version of this code which uses streams to fetch the data from the shared prefs key/value store.  There is both a basic dart example and an RxDart example; just make sure to import RxDart if you want to look at that one.  Many thanks to manideep polireddi. 
