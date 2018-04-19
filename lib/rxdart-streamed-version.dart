@@ -3,7 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:rxdart/rxdart.dart';
 import 'dart:async';
 
-//RXDart implementation is commented out, just remove the controllers around the published subject and it will work properly. 
+//RXDart implementation is commented out, just remove the comments around the published subject and it will work properly. 
 
 void main() => runApp(MyApp());
 
